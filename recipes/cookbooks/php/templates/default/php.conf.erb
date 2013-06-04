@@ -1,0 +1,5 @@
+location ~ \.php$ {
+    fastcgi_pass   unix:/run/php5-fpm.sock;
+    fastcgi_index  index.php;
+    include        fastcgi_params;
+}

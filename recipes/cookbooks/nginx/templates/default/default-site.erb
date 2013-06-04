@@ -1,0 +1,18 @@
+server {
+    listen   80;
+    server_name  <%= node['hostname'] %>;
+
+    access_log  <%= node['nginx']['log_dir'] %>/localhost.access.log;
+
+    location /phpmyadmin {
+        include php.conf;
+        root /usr/share;
+        index index.php;
+    }
+
+    location / {
+        include php.conf;
+        root   /var/www/default;
+        index  index.php index.html index.htm;
+    }
+}

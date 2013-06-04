@@ -1,0 +1,21 @@
+[submodule "recipes/opscode/php"]
+	path = recipes/opscode/php
+	url = https://github.com/opscode-cookbooks/php
+[submodule "recipes/opscode/nginx"]
+	path = recipes/opscode/nginx
+	url = https://github.com/opscode-cookbooks/nginx
+[submodule "recipes/opscode/openssl"]
+	path = recipes/opscode/openssl
+	url = https://github.com/opscode-cookbooks/openssl
+[submodule "recipes/opscode/varnish"]
+	path = recipes/opscode/varnish
+	url = https://github.com/opscode-cookbooks/varnish
+[submodule "recipes/opscode/ohai"]
+	path = recipes/opscode/ohai
+	url = https://github.com/opscode-cookbooks/ohai
+[submodule "recipes/opscode/mysql"]
+	path = recipes/opscode/mysql
+	url = https://github.com/opscode-cookbooks/mysql
+[submodule "recipes/opscode/build-essential"]
+	path = recipes/opscode/build-essential
+	url = https://github.com/opscode-cookbooks/build-essential
